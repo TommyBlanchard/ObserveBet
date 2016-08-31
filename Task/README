@@ -1,0 +1,9 @@
+observeBet.m is the main engine of the code. Takes in the subject ID (for file naming), whether you are scanning or not (1 or 0), and the sequence of events (blue or red). Saves subject behavior in /Data/ObserveBet
+
+makeObserveBetSequence.m creates a sequence of observe bet events (red or blue on) for each trial.
+
+pracObserveBet.m runs a 4 trial block, to show the subjects how the task works
+
+runObserveBet.m is the standard code for running a behavioral session
+
+scanObserveBet.m is the standard code for running a scanning session
