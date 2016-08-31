@@ -18,15 +18,15 @@ parameters {
     
     real<lower=0> g01;
     real<lower=0> g02;
-    real<lower=0> d0;
+    real<lower=0> d0; //Starting threshold
     
     real<lower=0> g11;
     real<lower=0> g12;
-    real<lower=0> d1;
+    real<lower=0> d1; //Ending threshold
     
     real<lower=0> b1;
     real<lower=0> b2;
-    real<lower=0, upper=1> c;
+    real<lower=0, upper=1> c; //proportion of the way through a block the threshold starts decreasing
 }
     
 transformed parameters {

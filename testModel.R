@@ -1,7 +1,7 @@
-setwd('/Users/tommyblanchard/Dropbox/ObserveBetModel')
 library(rstan)
+source("NavarroModel.R")
 
-d = runModel()
+d = runModel(plot=FALSE)
 
 d <- as.data.frame(d)
 
